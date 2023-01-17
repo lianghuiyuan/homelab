@@ -25,15 +25,6 @@ spec:
         path: '{{ `{{path}}` }}'
         targetRevision: {{ $.Values.gitops.revision }}
       syncPolicy:
-        automated:
-          prune: true
-          selfHeal: true
-        retry:
-          limit: 10
-          backoff:
-            duration: 1m
-            factor: 2
-            maxDuration: 16m
         syncOptions:
           - CreateNamespace=true
           - ApplyOutOfSyncOnly=true
