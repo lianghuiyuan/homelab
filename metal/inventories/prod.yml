@@ -2,9 +2,11 @@ metal:
   children:
     masters:
       hosts:
-        metal0: {ansible_host: 192.168.1.110, mac: '00:23:24:d1:f5:69', disk: sda, network_interface: eno1}
-        metal1: {ansible_host: 192.168.1.111, mac: '00:23:24:d1:f3:f0', disk: sda, network_interface: eno1}
-        metal2: {ansible_host: 192.168.1.112, mac: '00:23:24:e7:04:60', disk: sda, network_interface: eno1}
+        metal1: {ansible_host: 192.168.10.11, mac: 'fc:aa:14:3a:6a:3e', disk: sda, network_interface: enp1s0}
+        metal2: {ansible_host: 192.168.10.2, mac: '08:60:6e:f3:f3:db', disk: sda, network_interface: enp3s0}
+        metal3: {ansible_host: 192.168.10.3, mac: 'fc:aa:14:d7:33:bd', disk: sda, network_interface: enp2s0}
     workers:
       hosts:
-        metal3: {ansible_host: 192.168.1.113, mac: '00:23:24:d1:f4:d6', disk: sda, network_interface: eno1}
+        metal4: {ansible_host: 192.168.10.4, mac: '70:8b:cd:55:1e:1e', disk: sda, network_interface: enp3s0}
+        metal5: {ansible_host: 192.168.10.5, mac: '14:dd:a9:e7:cd:27', disk: sda, network_interface: enp3s0}
+        metal6: {ansible_host: 192.168.10.6, mac: '9c:5c:8e:97:30:24', disk: sda, network_interface: enp3s0}

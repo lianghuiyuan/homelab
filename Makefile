@@ -30,6 +30,7 @@ tools:
 	@docker run \
 		--rm \
 		--interactive \
+		--privileged \
 		--tty \
 		--network host \
 		--env "KUBECONFIG=${KUBECONFIG}" \
