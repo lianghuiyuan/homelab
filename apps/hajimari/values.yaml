@@ -34,6 +34,11 @@ hajimari:
             url: https://app.terraform.io
           - name: Cloudflare
             url: https://dash.cloudflare.com
+      - group: Persional words
+        bookmarks:
+          - name: Long time no see!
+            url: https://github.lhy.me
+
   persistence:
     data:
       enabled: false
