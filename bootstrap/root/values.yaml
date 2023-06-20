@@ -1,5 +1,6 @@
 gitops:
-  repo: http://gitea-http.gitea:3000/ops/homelab
+  #repo: http://gitea-http.gitea:3000/ops/homelab
+  repo: https://ghproxy.com/https://github.com/lianghuiyuan/homelab
   revision: master
 stacks:
   - name: bootstrap
