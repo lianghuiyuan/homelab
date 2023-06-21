@@ -1,5 +1,5 @@
 hajimari:
-  name: "Huiyuan.Liang"
+  name: Huiyuan.Liang
   env:
     TZ: Asia/Shanghai
   ingress:
