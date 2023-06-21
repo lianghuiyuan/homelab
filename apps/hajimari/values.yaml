@@ -1,5 +1,4 @@
 hajimari:
-  name: Huiyuan.Liang
   env:
     TZ: Asia/Shanghai
   ingress:
@@ -19,6 +18,7 @@ hajimari:
           hosts:
             - *host
   hajimari:
+    name: Huiyuan.Liang
     defaultEnable: true
     namespaceSelector:
       any: true
