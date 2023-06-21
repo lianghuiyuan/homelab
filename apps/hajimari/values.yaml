@@ -1,4 +1,6 @@
 hajimari:
+  name: Mr.L
+  title: 主页
   env:
     TZ: Asia/Shanghai
   ingress:
@@ -20,7 +22,6 @@ hajimari:
           hosts:
             - *host
   hajimari:
-    name: Mr.L
     defaultEnable: true
     namespaceSelector:
       any: true
