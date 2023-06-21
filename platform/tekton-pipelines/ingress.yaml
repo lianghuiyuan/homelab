@@ -5,6 +5,8 @@ metadata:
   namespace: tekton-pipelines
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-prod
+    external-dns.alpha.kubernetes.io/target: "homelab-tunnel.lhy.me"
+    external-dns.alpha.kubernetes.io/cloudflare-proxied: "true"
     hajimari.io/appName: Tekton
     hajimari.io/icon: robot-industrial
 spec:

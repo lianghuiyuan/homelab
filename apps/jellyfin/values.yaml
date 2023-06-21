@@ -5,7 +5,9 @@ jellyfin:
       ingressClassName: nginx
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
-        hajimari.io/appName: Jellyfin
+        external-dns.alpha.kubernetes.io/target: "homelab-tunnel.lhy.me"
+        external-dns.alpha.kubernetes.io/cloudflare-proxied: "true"
+        hajimari.io/appName: 多媒体中心
         hajimari.io/icon: filmstrip
       hosts:
         - host: &host jellyfin.lhy.me
