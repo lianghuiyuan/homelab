@@ -4,7 +4,7 @@ gitea:
     className: nginx
     annotations:
       cert-manager.io/cluster-issuer: letsencrypt-prod
-      hajimari.io/appName: Gitea
+      hajimari.io/appName: 代码仓库
       hajimari.io/icon: git
     hosts:
       - host: &host git.lhy.me
