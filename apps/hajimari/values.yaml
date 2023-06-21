@@ -30,8 +30,8 @@ hajimari:
         bookmarks:
           - name: Documentation
             url: https://homelab.lhy.me
-          - name: Public GitHub repository
-            url: https://github.com/lianghuiyuan/homelab
+          - name: Gitea repository
+            url: https://git.lhy.me/ops/homelab
       - group: Managed services
         bookmarks:
           - name: Terraform Cloud
@@ -40,9 +40,10 @@ hajimari:
             url: https://dash.cloudflare.com
       - group: Persional words
         bookmarks:
+          - name: Github
+            url: https://github.com/lianghuiyuan          
           - name: Long time no see!
-            url: https://github.lhy.me
-
+            url: https://github.lhy.me              
   persistence:
     data:
       enabled: false
