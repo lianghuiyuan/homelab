@@ -20,6 +20,8 @@ spec:
               env:
                 - name: GITEA_HOST
                   value: http://gitea-http:3000
+                - name: GOPROXY
+                  value: https://goproxy.cn,direct
                 - name: GITEA_USER
                   valueFrom:
                     secretKeyRef:
