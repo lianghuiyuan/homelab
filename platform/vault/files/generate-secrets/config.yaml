@@ -9,10 +9,7 @@
   data:      
     - key: client_secret
       length: 32
-      special: false
-    - key: client_id
-      length: 32
-      special: false      
+      special: false   
 
 # Dex
 - path: dex/grafana
