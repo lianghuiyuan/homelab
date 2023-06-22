@@ -9,8 +9,6 @@
     - key: client_id
       length: 32
       special: false      
-- path: gitea/dex
-  data:
     - key: client_secret
       length: 32
       special: false       
