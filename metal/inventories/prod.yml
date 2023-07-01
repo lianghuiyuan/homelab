@@ -4,8 +4,8 @@ metal:
       hosts:
         metal1: {ansible_host: 192.168.10.11, mac: 'fc:aa:14:3a:6a:3e', disk: sda, network_interface: enp1s0}
         metal2: {ansible_host: 192.168.10.2, mac: '08:60:6e:f3:f3:db', disk: sda, network_interface: enp3s0}
-        #metal3: {ansible_host: 192.168.10.3, mac: 'fc:aa:14:d7:33:bd', disk: sda, network_interface: enp2s0}
-        metal3: {ansible_host: 192.168.10.3, mac: '14:DD:A9:2A:27:ED', disk: sda, network_interface: enp2s0}
+        metal3: {ansible_host: 192.168.10.3, mac: 'fc:aa:14:d7:33:bd', disk: sda, network_interface: enp2s0}
+        metal13: {ansible_host: 192.168.10.13, mac: '14:DD:A9:2A:27:ED', disk: sda, network_interface: enp3s0}
     workers:
       hosts:
         metal4: {ansible_host: 192.168.10.4, mac: '70:8b:cd:55:1e:1e', disk: sda, network_interface: enp3s0}
